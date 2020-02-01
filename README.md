@@ -4,6 +4,8 @@ This base project creates an Ember app and installs a few key addons for the wor
 
 You can find the completed project at [https://github.com/ijlee2/acm-octane-workshop](https://github.com/ijlee2/acm-octane-workshop).
 
+![The finished app shows a product listing](screenshot.png)
+
 
 ## How to Use Base Project
 
