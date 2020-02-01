@@ -1,57 +1,26 @@
-# acm-octane-base
+# Interactive Workshop: Prototyping Apps with Ember Octane
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This base project creates an Ember app and installs a few key addons for the workshop. It will help us save time and dive into building our app. 😀
 
-## Prerequisites
+You can find the completed project at [https://github.com/ijlee2/acm-octane-workshop](https://github.com/ijlee2/acm-octane-workshop).
 
-You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## How to Use Base Project
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd acm-octane-base`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+1. Fork and clone this repo.
+    ```bash
+    git clone git@github.com:<your GitHub handle>/acm-octane-base.git
+    ```
+1. Change directory.
+    ```bash
+    cd acm-octane-base
+    ```
+1. Install packages.
+    ```bash
+    npm install
+    ```
+1. Run the app.
+    ```bash
+    ember serve
+    ```
+1. Visit your app at [http://localhost:4200](http://localhost:4200). Ember Mirage will create random data each time.
